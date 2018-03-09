@@ -60,7 +60,7 @@ export class HomeComponent implements OnInit {
     this.sampleVar = this.arr.length;
     this._data.changeGoal(this.arr);
   }
-
+ 
   addToList(){
     this.sampleVar = this.arr.push(this.someText);
     this.someText = '';
